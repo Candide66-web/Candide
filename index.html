@@ -366,13 +366,8 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
-                       START SECTION 6 - THE FAQ 
-//////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
-              START SECTION 8 - GET STARTED  
+              START SECTION 8 - COMMENCER  
 /////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="contact" class="get-started">
   <div class="container">
@@ -390,7 +385,9 @@
         <div class="cta-info w-100">
           <h4 class="display-4 fw-bold">Satisfaction 100% Garantie</h4>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+            <em><strong><span style="font-size: 20px;">"</span> Le plus difficile c'est de se décider à agir, le reste n'est que de la ténacité. <span style="font-size: 20px;">"</span>
+              <p style="font-family: cursive;text-align: right;"> -Amelia Earhart</p>
+            </strong></em>
           </p>
           <h3 class="display-3--brief">Quelle sera notre prochaine étape ?</h3>
           <ul class="cta-info__list">
@@ -402,23 +399,23 @@
       </div>
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
-          <h4 class="display-3--title mb-5">start your project</h4>
-          <form action="#" class="row">
+          <h4 class="display-3--title mb-5">Commencer votre projet</h4>
+          <form action="mail.php" class="row">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="Nom*" id="inputFirstName" class="shadow form-control form-control-lg" name="nom" required>
             </div>
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="Prenom*" id="inputLastName" class="shadow form-control form-control-lg" name="prenom" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" placeholder="Adresse email" id="inputEmail" class="shadow form-control form-control-lg" name="email" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+              <textarea name="message" placeholder="Message" id="message" rows="8" class="shadow form-control form-control-lg" name="message" required></textarea>
             </div>
             <div class="text-center d-grid mt-1">
-              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
-                submit
+              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3" name="submit">
+                Envoyer
                 <i class="fas fa-paper-plane"></i>
               </button>
             </div>
@@ -463,7 +460,7 @@
         </div>
         <div class="contact-box__info">
           <a href="mailto:candidesodokinpro@gmail.com" class="contact-box__info--title">candidesodokinpro@gmail.com</a>
-          <p class="contact-box__info--subtitle">Online support</p>
+          <p class="contact-box__info--subtitle">Support en ligne</p>
         </div>
       </div>
       <!-- CONTENT FOR LOCATION  -->
@@ -503,63 +500,6 @@
     </div>
   </div>
 
-  <!-- START THE CONTENT FOR THE CAMPANY INFO 
-  <div class="container mt-5">
-    <div class="row text-white justify-content-center mt-3 pb-3">
-      <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-        <h5 class="text-capitalize fw-bold">Campany name</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
-        </p>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">Products</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">useful links</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#"> Your Account</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">create an account</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">contact</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>-->
-
-  <!-- START THE COPYRIGHT INFO  
-  <div class="footer-bottom pt-5 pb-5">
-    <div class="container">
-      <div class="row text-center text-white">
-        <div class="col-12">
-          <div class="footer-bottom__copyright">
-            &COPY; Copyright 2021 <a href="#">Company</a> | Created by <a href="http://codewithpatrick.com" target="_blank">Muriungi</a><br><br>
-
-            Distributed by <a href="http://themewagon.com" target="_blank">ThemeWagon</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
   <div class="text-center text-light">
     Copyright 2022
   </div>
@@ -574,16 +514,6 @@
 
    
     <script src="assets/vendors/js/glightbox.min.js"></script>
-
-    <script type="text/javascript">
-      const lightbox = GLightbox({
-        'touchNavigation': true,
-        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
-        'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
-        'width': 900,
-        'autoPlayVideos': 'true',
-});
     
     </script>
      <script src="assets/js/bootstrap.bundle.min.js"></script>
